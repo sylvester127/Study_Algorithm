@@ -1,0 +1,6 @@
+D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Project\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Project\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Project\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Project\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Project\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Project\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
