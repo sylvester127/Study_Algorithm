@@ -56,5 +56,86 @@
     <ClCompile Include="11.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18f.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="22.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="23.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="25f.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="26.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="27.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="28.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="30.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="33.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="35.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="37.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="36f.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="38.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
