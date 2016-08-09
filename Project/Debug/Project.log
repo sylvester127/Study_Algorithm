@@ -1,2 +1,14 @@
-﻿  37.c
-  Project.vcxproj -> D:\sylve\Documents\WorkSpace\Visual Studio 2015\Projects\Algorithm\Debug\Project.exe
+﻿  38.c
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(22): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(24): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(28): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(30): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(34): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(40): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(42): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(46): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(48): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(52): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\38.c(54): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Project.vcxproj -> D:\sylve\Documents\Visual studio 2015\Projects\Algorithm\Debug\Project.exe

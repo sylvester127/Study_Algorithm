@@ -137,5 +137,11 @@
     <ClCompile Include="38.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="39.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs응용.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
