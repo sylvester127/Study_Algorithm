@@ -1,4 +1,6 @@
-11 7
-A-B
-B-C
-D-F
+5
+Tom 95
+John 92
+Mary 97
+Paul 100
+Jane 95

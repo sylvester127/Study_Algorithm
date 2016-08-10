@@ -137,10 +137,16 @@
     <ClCompile Include="38.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="39.c">
+    <ClCompile Include="bfs응용.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="bfs응용.c">
+    <ClCompile Include="39f.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="40.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="41.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
