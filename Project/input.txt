@@ -1,6 +1,1 @@
-5
-Tom 95
-John 92
-Mary 97
-Paul 100
-Jane 95
+I am Tom

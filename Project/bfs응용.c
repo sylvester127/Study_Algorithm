@@ -27,8 +27,10 @@ int main()
 			check[j] = 0;
 		}
 		if (G[i] == NULL)
+		{
 			g++;
-		G[i] = g;
+			G[i] = g;
+		}
 		Q[1][1] = i;
 		Q[1][2] = 1;
 

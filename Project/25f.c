@@ -7,27 +7,22 @@ int main()
 	freopen_s(&f, "input.txt", "r", stdin);
 	freopen_s(&f, "output.txt", "w", stdout);
 
-	int a, b = 1, i;
-	char ch[10] = "1";
-	char buf[10] = "";
+	int a, i;
+	int ch[10];
 
 	scanf_s("%d", &a);
 	if (a > 10)
 		return 0;
 
-	for (i = 1; i - 1 < a; i++)
+	for (i = 0; i < a; i++)
 	{
-		ch[i - 1] = i;
+		ch[i] = i+1;
+		
 	}
-	printf("%s", ch);
-	b = 1;
-	/*for (i = 0; i < a; i++)
+
+	for (i = a; i > 0; i--)
 	{
-		printf("%s", ch);
-		strncpy_s(ch, sizeof(ch), ch, sizeof(ch) - 1);
-		ch[sizeof(ch) - 1] = 0;
-		printf("\n");
-		b++;
-	}*/
+		printf("%s", ch[i]);
+	}
 	return 0;
 }
