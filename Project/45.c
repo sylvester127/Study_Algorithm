@@ -16,10 +16,10 @@ int main()
 
 	for (i = 0; i < strlen(ch); i++)
 	{
-		if (isupper(ch[i]) != 0)
-			toupper(ch[i]);
+		if (isupper(ch[i]))
+			ch[i]=(char)tolower(ch[i]);
 		else
-			tolower(ch[i]);
+			ch[i] = (char)toupper(ch[i]);
 	}
 	printf("%s", ch);
 	return 0;
