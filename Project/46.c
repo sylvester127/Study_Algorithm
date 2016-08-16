@@ -10,14 +10,14 @@ int main()
 
 	char arr[50];
 	int i, flag = 0;
-	
+
 	gets_s(arr, sizeof(arr));
 
-	for (i = 0; i <= strlen(arr); i++)
+	for (i = 0; i <= strlen(arr) - 1; i++)
 	{
 		if (flag == 1)
 			printf("%c", arr[i]);
-		
+
 		if (arr[i] == '@')
 			flag = 1;
 	}
