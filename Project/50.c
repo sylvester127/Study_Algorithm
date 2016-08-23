@@ -6,14 +6,31 @@ int main()
 	freopen_s(&f, "input.txt", "r", stdin);
 	freopen_s(&f, "output.txt", "w", stdout);
 
-	int n;
+	int n, i, j, num;
 
 	scanf_s("%d", &n);
 
 	if (n > 9)
 		return 0;
 
-
+	for (i = 1; i <= n; i++)
+	{
+		for (j = n; i < j; j--)
+		{
+			printf(" ");
+		}
+		num = 0;
+		for (j = 0; j < (2 * i) - 1; j++)
+		{
+			if (j < i)
+				num++;
+			else
+				num--;
+			printf("%d", num);
+		}
+		
+		printf("\n");
+	}
 
 	return 0;
 }

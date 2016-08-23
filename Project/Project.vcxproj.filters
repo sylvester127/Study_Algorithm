@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Lecture">
+      <UniqueIdentifier>{0cc598d6-933c-49f2-9d9f-b90fa7a64cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C언어실기문제들">
+      <UniqueIdentifier>{a31dd819-5bf4-48bb-93e7-02e1fdc74226}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -23,158 +29,167 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bfs응용.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="링크드리스트.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="위상정렬.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
     <ClCompile Include="1.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="2.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="3.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="4.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="5.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="6.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="7.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="8.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="9.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="10.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="11.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="12.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="13.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="14.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="15.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="16.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="17.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="20.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="21.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="22.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="23.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="24.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="25f.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="26.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="27.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="28.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="29.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="30.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="31.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="32.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="33.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="34.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="35.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="37.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="36f.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="38.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="bfs응용.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="39f.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="40.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="18.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="43.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="19.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="44.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="20.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="21.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="22.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="23.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="24.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="25f.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="26.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="27.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="28.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="29.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="30.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="31.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="32.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="33.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="34.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="35.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="36f.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="37.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="38.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="39f.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="40.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="41f.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="45.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="42.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="43.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="44.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="45.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="46.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="47.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="49.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="48f.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="49.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="50.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="51.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
