@@ -16,21 +16,25 @@ int main()
 
 	for (i = 1; i <= n; i++)
 	{
-		for (j = n; i < j; j--)
+		if (i <= (n / 2) + 1)
 		{
-			printf(" ");
-		}
+			for (j = n; i < j; j--)
+			{
+				printf(" ");
+			}
 
-		if (i <= (n/2)+1) 
-		{
 			for (j = 0; j < (i * 2) - 1; j++)
 			{
 				printf_s("*");
 			}
 		}
-		else 
+		else
 		{
-			for (j = n; j > (i * 2) - 1; j--)
+			for (j = 1; i > j; j++)
+			{
+				printf(" ");
+			}
+			for (j = (i * 2) - 1; j <= n * 2 - 1; j++)
 			{
 				printf_s("*");
 			}

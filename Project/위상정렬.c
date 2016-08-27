@@ -9,7 +9,9 @@ typedef struct NODE
 }NODE;
 
 NODE *matrix[N];
-static int i, j, n, Arr[100][100], room;
+static int n, room;
+static int Arr[100][100], R[100][100], C[100][3];
+static int i, j;
 
 int main()
 {
@@ -41,22 +43,58 @@ int main()
 	}
 
 	NODE *dir;
+	int Max = 0;
+	int X, Y, max, XX, YY;
 	for (i = n; i >= 1; i--)
 	{
 		for (dir = matrix[i]->next; dir; dir = dir->next)
 		{
+			X = dir->x;
+			Y = dir->y;
+			max = 0;
 
+			if (Arr[Y][X - 1] > Arr[Y][X] && max < R[Y][X - 1])
+				max = R[Y][X - 1];
+			if (Arr[Y - 1][X] > Arr[Y][X] && max < R[Y][X - 1])
+				max = R[Y - 1][X];
+			if (Arr[Y][X + 1] > Arr[Y][X] && max < R[Y][X - 1])
+				max = R[Y][X + 1];
+			if (Arr[Y + 1][X] > Arr[Y][X] && max < R[Y][X - 1])
+				max = R[Y + 1][X];
+
+			R[Y][X] = max + 1;
+			if (Max < max)
+			{
+				XX = X;
+				YY = Y;
+				Max = max;
+			}
 		}
 	}
 }
 
 void q(int x, int y, int L)
 {
-	int C[100][3];
-
 	C[L][0] = y;
 	C[L][1] = x;
 	C[L][2] = Arr[y][x];
 
-	if(Arr[][])
+	if (Arr[y][x] == 1)
+	{
+		for (i = 1; i <= L; i++)
+		{
+			printf("%d %d %d", C[i][0], C[i][1], C[i][2]);
+		}
+		printf("\n");
+		return;
+	}
+
+	if (Arr[y][x] - 1 == Arr[y + 1][x])
+		q(y + 1, x, L + 1);
+	if (Arr[y][x] - 1 == Arr[y][x + 1])
+		q(y, x + 1, L + 1);
+	if (Arr[y][x] - 1 == Arr[y - 1][x])
+		q(y - 1, x, L + 1);
+	if (Arr[y][x] - 1 == Arr[y][x - 1])
+		q(y, x - 1, L + 1);
 }
