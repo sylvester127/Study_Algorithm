@@ -35,6 +35,7 @@ int main()
 			printf("%3d ", arr[i][j]);
 		printf("\n");
 	}
+	return 0;
 }
 
 void q(int x,int y)
