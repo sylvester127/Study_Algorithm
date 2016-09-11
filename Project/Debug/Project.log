@@ -1,1 +1,4 @@
-﻿  Project.vcxproj -> D:\sylve\Documents\Visual studio 2015\Projects\Algorithm\Debug\Project.exe
+﻿  58.c
+d:\sylve\documents\visual studio 2015\projects\algorithm\project\58.c(18): warning C4477: 'printf' : 서식 문자열 '%.*f'에 'double' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
+  d:\sylve\documents\visual studio 2015\projects\algorithm\project\58.c(18): note: 이 인수는 변환 지정자에서 사용됩니다.
+  Project.vcxproj -> D:\sylve\Documents\Visual studio 2015\Projects\Algorithm\Debug\Project.exe

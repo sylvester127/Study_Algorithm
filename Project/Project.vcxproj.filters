@@ -194,10 +194,25 @@
     <ClCompile Include="52.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="54.c">
+    <ClCompile Include="53f.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="53f.c">
+    <ClCompile Include="ccw.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="55.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="56.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="54f.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="57.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="58.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
   </ItemGroup>
