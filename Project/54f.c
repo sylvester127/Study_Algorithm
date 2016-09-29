@@ -17,20 +17,18 @@ int main()
 	scanf_s("%d", &N);
 
 	arr = (int**)malloc(sizeof(int*)*N);
+
 	for (i = 0; i < N; i++)
 	{
 		arr[i] = (int*)malloc(sizeof(int)*N);
-	}
-	
-	for (i = 0; i < N; i++)
-	{
+		
 		for (j = 0; j < N; j++)
 		{
 			arr[i][j] = 0;
 		}
 	}
 
-	q(0, 0);
+	//q(0, 0);
 
 	for (i = 0; i < N; i++)
 	{

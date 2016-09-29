@@ -110,9 +110,6 @@
     <ClCompile Include="24.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="25f.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
     <ClCompile Include="26.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
@@ -143,22 +140,13 @@
     <ClCompile Include="35.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="36f.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
     <ClCompile Include="37.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="38.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="39f.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
     <ClCompile Include="40.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
-    <ClCompile Include="41f.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="42.c">
@@ -177,9 +165,6 @@
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="47.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
-    <ClCompile Include="48f.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="49.c">
@@ -212,7 +197,28 @@
     <ClCompile Include="57.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="58.c">
+    <ClCompile Include="59.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="58f.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="60.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="25.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="36.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="39.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="41.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="48.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
   </ItemGroup>
