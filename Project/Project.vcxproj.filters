@@ -191,9 +191,6 @@
     <ClCompile Include="56.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="54f.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
     <ClCompile Include="57.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
@@ -219,6 +216,9 @@
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="48.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="54.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
   </ItemGroup>
