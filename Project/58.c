@@ -1,10 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-void Print(int x, double d)
-{
-	printf("%.*f\n", x, d);
-}
 
 int main()
 {
@@ -13,13 +7,26 @@ int main()
 	freopen_s(&f, "output.txt", "w", stdout);
 
 	int M, N, X;
-	char format[32];
+	int quotient, remainder;
 	int i;
 	
 	scanf_s("%d %d %d", &M, &N, &X);
+	
+	quotient = M / N;
+	remainder = M % N;
 
-	double temp = (double)M / (double)N;
+	for (int i = 0; i <= X; i++)
+	{	
+		if(i == 0)
+			printf("%d.", quotient);
+		else
+		{
+			printf("%d", quotient);
+		}
+		int temp = remainder * 10;
+		quotient = (remainder * 10) / N;
+		remainder = temp % N;
+	}
 
-	Print(X, temp);
 	return 0;
 }

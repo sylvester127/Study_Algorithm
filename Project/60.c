@@ -1,29 +1,32 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
+int A[10000000];
 int main()
 {
 	FILE *f;
 	freopen_s(&f, "input.txt", "r", stdin);
 	freopen_s(&f, "output.txt", "w", stdout);
 
-	int N, *arr;
-	float sum = 1;
-	int i;
-
-	scanf_s("%d", &N);
-
-	arr = (float*)malloc(sizeof(float)*N);
-	for (i = 0; i < N; i++)
+	int N,L=0,n;
+	
+	A[0] = 1;
+	scanf("%d", &n);
+	for (int j = 1; j <= n; j++)
 	{
-		arr[i] = 2;
-	}
+		for (int i = 0; i <= L; i++)
+		{
+			A[i] *= 2;
+			if (i == L && A[i] >= 10)L++;
+		}
 
-	for (i = 0; i < N; i++)
-	{
-		sum = sum * arr[i];
+		int carry = 0;
+		for (int i = 0; i <= L; i++)
+		{
+			int na = A[i] % 10 + carry;
+			carry = A[i] / 10;
+			A[i] = na;
+		}
 	}
-	printf("%.0f ", sum);
+	for (int j = L; j >= 0; j--)printf("%d", A[j]);
 	return 0;
 }

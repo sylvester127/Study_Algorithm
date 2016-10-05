@@ -10,7 +10,7 @@ typedef struct Data
 {
 	int x;
 	int y;
-}Data[N];
+}Data;
 
 int main()
 {
@@ -20,8 +20,18 @@ int main()
 	
 	int n;
 	int i, j;
-
+	Data date[N];
 	scanf_s("%d", &n);
 
+	for (i = 0; i < N; i++)
+	{
+		scanf_s("%d %d", &date[i].x, &date[i].y);
+	}
+
+	for (i = 0; i < N; i++)
+	{
+		printf("%d %d", date[i].x, date[i].y);
+		printf("\n");
+	}
 	return 0;
 }
