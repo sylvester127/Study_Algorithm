@@ -179,9 +179,6 @@
     <ClCompile Include="52.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
-    <ClCompile Include="53f.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
     <ClCompile Include="ccw.c">
       <Filter>소스 파일\Lecture</Filter>
     </ClCompile>
@@ -195,9 +192,6 @@
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="59.c">
-      <Filter>소스 파일\C언어실기문제들</Filter>
-    </ClCompile>
-    <ClCompile Include="58f.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="60.c">
@@ -220,6 +214,15 @@
     </ClCompile>
     <ClCompile Include="54.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="58.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="53.c">
+      <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="그림압축.c">
+      <Filter>소스 파일\Lecture</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
