@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\C언어실기문제들">
       <UniqueIdentifier>{a31dd819-5bf4-48bb-93e7-02e1fdc74226}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2014까지_1">
+      <UniqueIdentifier>{a934121e-b628-4919-97c3-d7f29791decc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -222,6 +225,48 @@
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
     <ClCompile Include="그림압축.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="저울.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="검증수.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="홀수.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="그릇.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="지능형 기차.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="약수 구하기.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="윷놀이.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="백설공주와난장이.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="로봇.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="최대값.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="대표값2.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="오븐 시계.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="과자.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="계단.c">
       <Filter>소스 파일\Lecture</Filter>
     </ClCompile>
   </ItemGroup>
