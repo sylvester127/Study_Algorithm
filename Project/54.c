@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static int N, num = 1, **arr;
+static int N, cnt = 1, **arr;
 static char dir = 'r';
 static int i, j;
 
 void q(int y, int x)
 {
-	arr[y][x] = num;
-	num++;
+	arr[y][x] = cnt;
+	cnt++;
 
-	if (num == (N*N) + 1)
+	if (cnt == (N*N) + 1)
 		return;
 
 	switch (dir)
