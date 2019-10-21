@@ -15,12 +15,28 @@
     <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bfs응용.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="ccw.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="2014까지_1\검증수.c" />
+    <ClCompile Include="2014까지_1\과자.c" />
+    <ClCompile Include="2014까지_1\그릇.c" />
+    <ClCompile Include="2014까지_1\대표값2.c" />
+    <ClCompile Include="2014까지_1\백설공주와난장이.c" />
+    <ClCompile Include="2014까지_1\약수 구하기.c" />
+    <ClCompile Include="2014까지_1\오븐 시계.c" />
+    <ClCompile Include="2014까지_1\윷놀이.c" />
+    <ClCompile Include="2014까지_1\지능형 기차.c" />
+    <ClCompile Include="2014까지_1\최대값.c" />
+    <ClCompile Include="2014까지_1\홀수.c" />
+    <ClCompile Include="2014까지_2\곱셈.c" />
+    <ClCompile Include="2014까지_2\나는 학급회장이다.(투표).c" />
+    <ClCompile Include="2014까지_2\덩치.c" />
+    <ClCompile Include="2014까지_2\떡 먹는 호랑이.c" />
+    <ClCompile Include="2014까지_2\색종이(초).c" />
+    <ClCompile Include="2014까지_2\수열.c" />
+    <ClCompile Include="2014까지_2\숫자의 개수.c" />
+    <ClCompile Include="2014까지_2\싸이클.c" />
+    <ClCompile Include="2014까지_2\자리배정f.c" />
+    <ClCompile Include="2014까지_2\주사위 게임.c" />
+    <ClCompile Include="2014까지_2\줄 세우기.c" />
     <ClCompile Include="C언어실기문제들\1.c" />
     <ClCompile Include="C언어실기문제들\10.c" />
     <ClCompile Include="C언어실기문제들\11.c" />
@@ -82,135 +98,34 @@
     <ClCompile Include="C언어실기문제들\7.c" />
     <ClCompile Include="C언어실기문제들\8.c" />
     <ClCompile Include="C언어실기문제들\9.c" />
-    <ClCompile Include="개구리.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="검증수.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="계단.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="곱셈.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="공주님의 정원.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="과자.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="그릇.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="그림압축.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="나는 학급회장이다.(투표).c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="대표값2.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="덩치.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="떡 먹는 호랑이.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="로봇.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="링크드리스트.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="바이러스.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="백설공주와난장이.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="사다리.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="색종이%28초%29.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="두번 뒤집기.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="대표선수.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="수열.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="자동차 경주.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="전깃줄2.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="해밍 경로.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="철사 자르기.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="숫자의 개수.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="숫자카드.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="스도쿠.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="싸이클.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="약수 구하기.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="오븐 시계.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="위상정렬.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="윷놀이.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="자리배정f.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="저울.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="주사위 게임.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="줄 세우기.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="지능형 기차.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="참외밭.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="최대값.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="홀수.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="회의실 배정.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="회전초밥.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="Lecture\bfs응용.c" />
+    <ClCompile Include="Lecture\ccw.c" />
+    <ClCompile Include="Lecture\개구리.c" />
+    <ClCompile Include="Lecture\계단.c" />
+    <ClCompile Include="Lecture\공주님의 정원.c" />
+    <ClCompile Include="Lecture\그림압축.c" />
+    <ClCompile Include="Lecture\대표선수.cpp" />
+    <ClCompile Include="Lecture\두번 뒤집기.c" />
+    <ClCompile Include="Lecture\로봇.c" />
+    <ClCompile Include="Lecture\링크드리스트.c" />
+    <ClCompile Include="Lecture\바이러스.c" />
+    <ClCompile Include="Lecture\사다리.c" />
+    <ClCompile Include="Lecture\소수.c" />
+    <ClCompile Include="Lecture\숫자카드.c" />
+    <ClCompile Include="Lecture\스도쿠.c" />
+    <ClCompile Include="Lecture\연속구간.c" />
+    <ClCompile Include="Lecture\위상정렬.c" />
+    <ClCompile Include="Lecture\자동차 경주.c" />
+    <ClCompile Include="Lecture\자리배정.c" />
+    <ClCompile Include="Lecture\저울.c" />
+    <ClCompile Include="Lecture\전깃줄.c" />
+    <ClCompile Include="Lecture\주사위 세개.c" />
+    <ClCompile Include="Lecture\참외밭.c" />
+    <ClCompile Include="Lecture\철사 자르기.c" />
+    <ClCompile Include="Lecture\최댓값.c" />
+    <ClCompile Include="Lecture\해밍 경로.c" />
+    <ClCompile Include="Lecture\회의실 배정.c" />
+    <ClCompile Include="Lecture\회전초밥.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F693DC48-2920-47F7-88A2-6BC9423061E9}</ProjectGuid>

@@ -35,141 +35,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bfs응용.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="링크드리스트.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="위상정렬.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="ccw.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="그림압축.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="저울.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="검증수.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="홀수.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="그릇.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="지능형 기차.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="약수 구하기.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="윷놀이.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="백설공주와난장이.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="로봇.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="최대값.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="대표값2.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="오븐 시계.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="과자.c">
-      <Filter>소스 파일\2014까지_1</Filter>
-    </ClCompile>
-    <ClCompile Include="계단.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="줄 세우기.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="곱셈.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자카드.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="두번 뒤집기.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="주사위 게임.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="덩치.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자의 개수.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="싸이클.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="스도쿠.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="사다리.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="떡 먹는 호랑이.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="참외밭.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="공주님의 정원.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="자리배정f.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="철사 자르기.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="회전초밥.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="나는 학급회장이다.(투표).c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="해밍 경로.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="수열.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
-    <ClCompile Include="회의실 배정.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="대표선수.cpp">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="전깃줄2.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="자동차 경주.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="바이러스.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="개구리.c">
-      <Filter>소스 파일\Lecture</Filter>
-    </ClCompile>
-    <ClCompile Include="색종이%28초%29.c">
-      <Filter>소스 파일\2014까지_2</Filter>
-    </ClCompile>
     <ClCompile Include="C언어실기문제들\1.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
     </ClCompile>
@@ -352,6 +217,156 @@
     </ClCompile>
     <ClCompile Include="C언어실기문제들\60.c">
       <Filter>소스 파일\C언어실기문제들</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\검증수.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\과자.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\그릇.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\대표값2.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\백설공주와난장이.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\약수 구하기.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\오븐 시계.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\윷놀이.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\지능형 기차.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\최대값.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_1\홀수.c">
+      <Filter>소스 파일\2014까지_1</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\곱셈.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\나는 학급회장이다.(투표).c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\덩치.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\떡 먹는 호랑이.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\색종이(초).c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\수열.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\숫자의 개수.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\싸이클.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\자리배정f.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\주사위 게임.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2014까지_2\줄 세우기.c">
+      <Filter>소스 파일\2014까지_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\bfs응용.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\ccw.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\개구리.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\계단.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\공주님의 정원.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\그림압축.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\대표선수.cpp">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\두번 뒤집기.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\로봇.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\링크드리스트.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\바이러스.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\사다리.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\소수.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\숫자카드.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\스도쿠.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\연속구간.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\위상정렬.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\자동차 경주.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\자리배정.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\저울.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\전깃줄.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\주사위 세개.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\참외밭.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\철사 자르기.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\최댓값.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\해밍 경로.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\회의실 배정.c">
+      <Filter>소스 파일\Lecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture\회전초밥.c">
+      <Filter>소스 파일\Lecture</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
