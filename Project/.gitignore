@@ -1,0 +1,25 @@
+# Visual Studio files
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.filters
+*.idb
+*.pdb
+*.tlog
+*.log
+.vs/
+Debug/
+Release/
+
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.o
+*.out
+
+# Other
+ConsoleApplication1/ # If moved/deleted
+.vscode/
