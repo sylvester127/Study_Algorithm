@@ -9,12 +9,9 @@
 *.tlog
 *.log
 .vs/
-Debug/
-Release/
 
 # Build artifacts
-bin/
-obj/
+build/
 *.exe
 *.dll
 *.o
