@@ -8,6 +8,9 @@
 *.pdb
 *.tlog
 *.log
+# Visual Studio database files
+*.sdf
+*.VC.db
 .vs/
 
 # Build artifacts
