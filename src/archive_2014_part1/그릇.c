@@ -25,7 +25,7 @@ int main()
 
 	if (i < 3 && i >= 50)
 	{
-		printf("Է¿");
+		printf("입력 오류");
 		return 0;
 	}
 

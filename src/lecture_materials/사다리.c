@@ -6,10 +6,10 @@ int main()
 	freopen_s(&f, "input.txt", "r", stdin);
 	freopen_s(&f, "output.txt", "w", stdout);
 
-	int N, L;	//N , L ĭ
+	int N, L;	//N과 L 입력
 	
 	scanf_s("%d $d", &N, &L);
-	int bar[Num][2];	// , 
+	int bar[Num][2];	//가로, 세로
 	int max = 0;
 	for (int i = 1; i <= N; i++)
 	{

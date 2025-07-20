@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define N 10
-//3 1Ϻ 11 30 ּ ̲ ϱ
+//3월 1일부터 11월 30일까지
 int check[N];
 
 typedef struct DATA

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 100010
-//n 10, Ʈ 30
+//n은 10, 트리는 30
 int n, k;
 int main()
 {

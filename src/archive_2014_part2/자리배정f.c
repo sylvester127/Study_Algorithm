@@ -7,7 +7,7 @@ int main()
 	freopen_s(&f, "output.txt", "w", stdout);
 	
 	int cnt = 1, flag = 1;
-	int C, R, K;	//: C, : R, K: 
+	int C, R, K;	//가로: C, 세로: R, K: 목표
 	int x = 1, y = 1;
 	scanf_s("%d %d", &C, &R);
 	scanf_s("%d", &K);

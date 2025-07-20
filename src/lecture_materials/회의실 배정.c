@@ -37,7 +37,7 @@ int main()
 		scanf_s("%d %d %d", &data[i].num, &data[i].stime, &data[i].etime);
 	}
 
-	//
+	// 정렬
 	qsort(data, n, sizeof(data[0]), compare);
 	
 	check[0] = 1;

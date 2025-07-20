@@ -15,7 +15,7 @@ int main()
 
 	if (n % 2 == 0)
 	{
-		printf(": ¦ Է");
+		printf("홀수만 입력");
 		return 0;
 	}
 

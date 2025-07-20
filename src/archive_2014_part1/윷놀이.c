@@ -23,7 +23,7 @@ int main()
 				status[1]++;
 			else
 			{
-				printf("Է¿");
+				printf("입력 오류");
 				return 0;
 			}
 		}

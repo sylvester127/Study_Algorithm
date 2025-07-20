@@ -40,7 +40,7 @@ int main()
 		AR[a][b] = 1;
 	}
 
-	//
+	// 처리 처리
 	for (int i = 1; i <= n; i++)
 	{
 		q(i);

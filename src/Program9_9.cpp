@@ -6,7 +6,7 @@ int sort(Type list[])
 {
 	if (list[0]==0&& list[1] == 0 && list[2] == 0)
 	{
-		cout << "-1¹İÈ¯" << endl;
+		cout << "-1ë°˜í™˜" << endl;
 		return -1;
 	}
 	else 
@@ -22,7 +22,7 @@ void main() {
 	int a[3] = {0}, input;
 	float b[3] = {0}, finput;
 
-	cout << "¹è¿­ ÀÔ·Â" << endl;
+	cout << "ë°°ì—´ ì…ë ¥" << endl;
 	for (int i = 0; i < 3; i++)
 	{
 		cin >> input;

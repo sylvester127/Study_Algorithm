@@ -44,7 +44,7 @@ int main()
 		printf("\n");
 	}*/
 
-	//x   ÷ν ڷ PXϼ
+	//x축을 기준으로 정렬
 	qsort(date + 1, date + n + 1, compareX);
 	
 	for (int i = 1; i <= n; i++)
@@ -52,7 +52,7 @@ int main()
 
 	}
 
-	//y   ÷ν ڷ PYϼ
+	//y축을 기준으로 정렬
 	sort(date + 1, date + n + 1, compareY);
 	{
 	

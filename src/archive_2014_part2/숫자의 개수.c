@@ -8,9 +8,9 @@ int main()
 	freopen_s(&f, "output.txt", "w", stdout);
 
 	
-	int a, b, c;	//  
-	int num[10];	//  0~9
-	int result;		//  
+	int a, b, c;	// 입력값
+	int num[10];	// 숫자 0~9
+	int result;		// 결과
 	char buf[16];
 
 	scanf_s("%d %d %d", &a, &b, &c);

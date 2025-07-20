@@ -13,7 +13,7 @@
 //	fscanf_s(f, "%d", &R);
 //	fscanf_s(f, "%d", &K);
 //
-//	printf(" ũ %d X %d, ȣ %d̴.", C, R, K);
+//	printf("크기 %d X %d, 호 %d입니다.", C, R, K);
 //
 //	/*if (C*R < K)
 //	{

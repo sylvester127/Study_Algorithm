@@ -15,7 +15,7 @@ int main()
 
 	if (n > 100)
 	{
-		printf("Է° ");
+		printf("입력 오류");
 		return 0;
 	}
 

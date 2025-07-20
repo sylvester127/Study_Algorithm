@@ -11,9 +11,9 @@ int main()
 	scanf_s("%d %d", &a, &b);
 
 	if ((a + b) >= 140)
-		printf("%d հ", a + b);
+		printf("%d 점", a + b);
 	else
-		printf("%d հ", a + b);
+		printf("%d 점", a + b);
 
 	return 0;
 }

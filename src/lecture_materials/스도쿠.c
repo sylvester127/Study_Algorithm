@@ -6,13 +6,13 @@ void q(int num, int h, int w)
 {
 	int i, j, temph, tempw;
 
-	for (int i = 1; i <= 9; i++)	// üũ
+	for (int i = 1; i <= 9; i++)	// 되돌리기 되돌리기 체크
 	{
 		if (arr[i][w] == num || arr[h][i] == num)
 			return;
 	}
 
-	for (int i = h - (h - 1) % 3; i <= h - (h - 1) % 3 + 2; i++)	//簢 üũ
+	for (int i = h - (h - 1) % 3; i <= h - (h - 1) % 3 + 2; i++)	// 블록 체크
 	{
 		for (int j = w - (w - 1) % 3; j <= w - (w - 1) % 3 + 2; j++)
 		{
@@ -21,7 +21,7 @@ void q(int num, int h, int w)
 		}
 	}
 	/////////////////////////////////////////////////////////////
-	arr[h][w] = num;	//Ʈ
+	arr[h][w] = num;	// 탐색
 
 	if (h == 9 && w == 9)
 	{
@@ -43,7 +43,7 @@ void q(int num, int h, int w)
 		temph = h;
 		tempw = w;
 
-		while (1)	// ã temph, tempw
+		while (1)	// 찾기 temph, tempw
 		{
 			if (tempw == 9) 
 			{

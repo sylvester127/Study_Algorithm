@@ -12,7 +12,7 @@ int main()
 
 	if (D < 3 && D>30 && K < 10 && K>100000)
 	{
-		printf("Э ");
+		printf("입력 오류");
 		return 0;
 	}
 

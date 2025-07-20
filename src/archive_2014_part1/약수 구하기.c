@@ -14,7 +14,7 @@ int main()
 
 	if (N < 1 && N > 10000)
 	{
-		printf("Է° ");
+		printf("입력 오류");
 		return 0;
 	}
 

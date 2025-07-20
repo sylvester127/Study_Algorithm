@@ -7,7 +7,7 @@ int main()
 	freopen_s(&f, "output.txt", "w", stdout);
 
 	int n, x, y;
-	int arr[N][3];	//Ű, , ġ 
+	int arr[N][3];	//키, 몸무게, 등수
 	scanf_s("%d", &n);
 
 	for (int i = 0; i < n; i++)
