@@ -1,1 +1,0 @@
-Fix: Corrected Korean encoding and garbled text in C/C++ source files
